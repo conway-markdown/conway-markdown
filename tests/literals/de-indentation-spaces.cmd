@@ -1,0 +1,8 @@
+~~
+   3 spaces (reference amount)
+    +1
+     +2
+      +3
+   +0
+             +10
+~~
