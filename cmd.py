@@ -2056,6 +2056,12 @@ def process_list_items(placeholder_storage, content):
       (?=
         {LEADING_HORIZONTAL_WHITESPACE_MAXIMAL_REGEX}
         {LIST_ITEM_DELIMITER_REGEX}
+        (?:
+          \{{
+            {NOT_CLOSING_CURLY_BRACKET_MINIMAL_REGEX}
+          \}}
+        ) ?
+        [\s] +
           |
         \Z
       )
