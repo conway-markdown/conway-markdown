@@ -1,0 +1,11 @@
+w~~
+nothing
+ 1 space
+  2 spaces
+   3 spaces
+	1 tab
+		2 tabs
+			3 tabs
+ 	1 space, 1 tab
+	 1 tab, 1 space
+~~
